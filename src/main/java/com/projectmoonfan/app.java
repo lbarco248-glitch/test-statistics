@@ -20,6 +20,7 @@ public class app
         System.out.printf("The lowest score of the class is %.1f%%.", (float) scores[0]); //Index 0 is lowest value
         System.out.println();
         System.out.printf("The highest score of the class is %.1f%%.", (float) scores[highest]);
+
     }
 
 }
