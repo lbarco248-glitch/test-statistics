@@ -14,13 +14,13 @@ public class app
             total += scores[score];
         }
         double average = (double) total / scores.length;
-        int highest = scores.length - 1;
+        int highest = scores.length - 1;/Closes this whole thing/
         System.out.printf("The average score of the class is %.1f%%.", average);
         System.out.println();
         System.out.printf("The lowest score of the class is %.1f%%.", (float) scores[0]); //Index 0 is lowest value
         System.out.println();
         System.out.printf("The highest score of the class is %.1f%%.", (float) scores[highest]);
-
+        System.out.println("TESTING COMPATIBILILTY");
     }
 
 }
